@@ -1,0 +1,29 @@
+body {
+    border: 0;
+    padding: 0;
+    background-color: darkblue;
+}
+
+.seccion {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.barra-lateral {
+    background-color: blue;
+    position: relative;
+    bottom: 450px;
+    width: 400px;
+    height: 100vh;
+    float: right;
+}
+
+.pie-pagina {
+    background-color: blue;
+    height: 324px;
+}
+
+.barra-lateral img {
+    height: 170px;
+}
